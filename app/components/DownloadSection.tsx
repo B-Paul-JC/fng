@@ -30,6 +30,8 @@ export const DownloadSection: React.FC<DownloadSectionProps> = ({
             </div>
             <span className="inline-block py-2 px-4 text-green-800 font-bold rounded-lg">
               Download Ready!
+              <br />
+              {fileName?.replace(/\.[^/.]+$/, "")} has been converted!
             </span>
           </a>
         </div>
